@@ -1,0 +1,33 @@
+{
+  "name": "autotests",
+  "version": "0.0.1",
+  "description": "This is testing work - automation tests for the interview",
+  "main": "index.js",
+  "scripts": {
+    "test:phantom": "node_modules/.bin/nightwatch -e phantom",
+    "test:chrome": "node_modules/.bin/nightwatch -e chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pulitzier/autotests.git"
+  },
+  "keywords": [
+    "auto",
+    "testing"
+  ],
+  "author": "ybaravy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pulitzier/autotests/issues"
+  },
+  "homepage": "https://github.com/Pulitzier/autotests#readme",
+  "dependencies": {
+    "chromedriver": "^2.27.3",
+    "mocha": "^3.2.0",
+    "nightwatch": "^0.9.16",
+    "nightwatch-html-reporter": "^2.0.4",
+    "phantomjs": "^2.1.1",
+    "request": "^2.79.0",
+    "selenium-server-standalone": "^2.53.1"
+  }
+}
